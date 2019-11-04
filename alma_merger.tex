@@ -591,13 +591,11 @@ of 2.25~h. We used four 1.875~GHz IF bands for the observations, one centered on
 redshifted \cplus\ line frequency (at 396.127~GHz), with 3840 channels, and 
 the other three at neighbouring frequencies, each with 128~channels to sample the dust continuum of the galaxy. 
 
-The initial data analysis was carried out with the ALMA pipeline in the Common Astronomy Software Application ({\sc casa}) package; this included flagging of unusable data, and calibration of the flux density scale, and the antenna-based complex gains and system bandpass. After this, the target source data were split into a separate measurement set, and a self-calibration procedure was carried out on the continuum data, in {\sc casa}, to more accurately measure the antenna-based gains. The self-calibration procedure involved a few rounds of imaging and phase-only self-calibration, followed by a couple of rounds of amplitude-and-phase self-calibration and imaging, until the gain solutions converged and no improvement was seen in the image on further 
+The initial data analysis was carried out with the ALMA pipeline in the Common Astronomy Software Application ({\sc casa}) package; this included the removal of bad data (e.g. due to non-working antennas), and calibration of the flux density scale and the antenna-based complex gains and system bandpass. After this, the target source data were split into a separate measurement set, and a self-calibration procedure was carried out on the continuum data, in {\sc casa}, to more accurately measure the antenna-based gains. The self-calibration procedure involved a few rounds of imaging and phase-only self-calibration, followed by a couple of rounds of amplitude-and-phase self-calibration and imaging, until the gain solutions converged and no improvement was seen in the image on further 
 self-calibration. The self-calibration used a ``robust'' scheme, with custom 
 routines written in the {\sc casa} environment. The final naturally-weighted continuum 
 image has a root-mean-square (RMS) noise value of $\approx 30 \mu$Jy/Bm and an angular 
-resolution of $0\farcs36 \times 0\farcs31$. The antenna-based gains derived from the above 
-procedure were then applied to the line data. Finally, a spectral cube was made using the 
-visibilities from the band centered on the redshifted \cplus\ frequency, using natural 
+resolution of $0\farcs36 \times 0\farcs31$. The peak signal-to-noise ratio on the image improved from $\approx 100$ before self-calibration to $\approx 330$ after self-calibration, and the image RMS noise improved by a factor of $\approx 1.7$, indicating a significant improvement due to the self-calibration process. The antenna-based gains derived from the above procedure were then applied to the line data. Finally, a spectral cube was made using the visibilities from the band centered on the redshifted \cplus\ frequency, using natural 
 weighting. The spectral cube has an RMS noise of $250$~$\mu$Jy/Bm per 50~km/s channel, 
 and an angular resolution of $0\farcs37 \times 0\farcs31$.
 
