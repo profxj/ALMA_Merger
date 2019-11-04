@@ -292,7 +292,7 @@
 %%
 %% If you wish, you may supply running head information, although
 %% this information may be modified by the editorial offices.
-\shorttitle{ALMA C$^+$ imaging of a Major Merger at $z \sim 4$}
+\shorttitle{ALMA C{\sc ii} 158$\mu$m imaging of an HI-Selected Major Merger at $z \sim 4$}
 \shortauthors{Prochaska et al.}
 %%
 %% You can add a light gray and diagonal water-mark to the first page 
@@ -313,7 +313,7 @@
 %\title{The COS Absorption Survey of Baryon Harbors: Warm-hot Circumgalactic Gas Reservoirs Traced by Ne~VIII}
 
 %\title{Major Mergers of Normal $z \sim 4$ Galaxies}
-\title{ALMA C{\sc ii} 158$\mu$m Imaging of a Major Merger at $z \sim 4$}
+\title{ALMA C{\sc ii} 158$\mu$m Imaging of an HI-Selected Major Merger at $z \sim 4$}
 
 %% LaTeX will automatically break titles if they run longer than
 %% one line. However, you may use \\ to force a line break if
@@ -400,14 +400,16 @@ Array (ALMA) observations of \cplus\ and dust-continuum emission from a galaxy a
 selected by its strong \hi\ absorption (a damped \lya\ absorber, DLA) against a background QSO. 
 Our ALMA images reveal a pair of star-forming galaxies separated by $\approx \rsep$\,kpc 
 (projected) undergoing a major merger. Between these galaxies is a third emission component 
-with highly elevated \cplus\ emission relative to the dust continuum, which is likely to arise 
+with highly elevated ($2\times$)
+\cplus\ emission relative to the dust continuum, which is likely to arise 
 from stripped gas associated with the merger. This merger of two otherwise-normal galaxies 
 is not accompanied by enhanced star-formation, contrary to mergers detected in most 
 luminosity-selected samples. The DLA associated with the merger exhibits extreme kinematics, 
 with a velocity width for the low-ionization metal lines of $\mdvninety \approx 470 \, \mkms$, that 
 spans the velocity spread revealed in the \cplus\ emission. We propose that DLAs with high 
 \dvninety\ values are a signpost of major mergers in normal galaxies at high redshifts, and 
-use the distribution of the velocity widths of metal lines in high-$z$ DLAs to estimate the 
+use the distribution of the velocity widths of metal lines in high-$z$ DLAs to provide
+a rough estimate the 
 fraction of $z > 3$ galaxies that are undergoing a major merger.
 \end{abstract}
 
@@ -683,7 +685,9 @@ of the fraction of major mergers. We discuss each of these in turn.
 \caption{Ratio of \lcplus/\ldust\ per spaxel for the gas in the merging system.  
 The lines demarcate the A (upper), B (lower) and C (middle) components.  The former 
 two have \lcplus/\ldust\ ratios characteristic of star-forming galaxies with modest 
-SFRs whereas the ratio for component~C is $\approx 3$ times higher.  We propose that 
+SFRs whereas the ratio for component~C is $\approx 2$ times higher (see Table~\ref{tab:values}).  
+Uncertainties in the integrated values are $\approx 1-3 \times 10^{-4}$.
+We propose that 
 the gas in component~C is stripped material, from one or both of galaxies A and B, and 
 the elevated ratio results from \cplus\ emission from predominantly atomic or even ionized gas.
 }
@@ -729,9 +733,10 @@ modest SFRs \citep[e.g.,][]{capak+15}.
 %$\mlcplus/\mldust = XX$.
 This supports the association of these components with individual, normal galaxies.
 
-The central component C, however, shows a much higher \lcplus/\ldust\ ratio: 
-a factor of approximately $2-3$ higher than the values for the other two 
-components. This is illustrated in Figure~\ref{fig:ratio}. Referring to Figure~\ref{fig:moments}, 
+The integrated flux of central component C, however, shows a much higher \lcplus/\ldust\ ratio: 
+a factor of approximately two times higher than the integrated values for the other two 
+components. This is illustrated in Figure~\ref{fig:ratio} and Table~\ref{tab:values}. 
+Referring to Figure~\ref{fig:moments}, 
 the \cplus\ emission in this region is not substantially higher than that from components~A or 
 B; the high \lcplus/\ldust\ ratio here is thus driven by low dust continuum emission (Fig.~\ref{fig:dust}) and therefore a low \ldust\ value.  Indeed, the 
 ratio in component~C lies close to an extrapolation of the relation between \lcplus/\ldust\ 
@@ -891,7 +896,7 @@ contributions are small \citep{bird+15}. We proceed with our nominal approach an
 emphasize that this yields only a coarse estimate of the major merger fraction. Analysis 
 of simulations could constrain these effects; however, this is beyond the scope of this paper.
 
-To estimate the merger fraction of galaxies, one must account for the 
+To roughly estimate the merger fraction of galaxies, one must account for the 
 cross-sectional weighting that is inherent to DLA analysis, i.e.\ systems with 
 a larger projected area \adla\ whose \hi\ column density exceeds the DLA threshold 
 have a higher probability of intersecting a quasar sightline. If the merger does 
@@ -916,8 +921,9 @@ $\madla^{\rm merger}$ to range from 2 to 4 \adla.
 %
 %[{\tt NK: I doubt that minor mergers would produce a high delta v90, unless the two galaxies are along the sightline. I think this is okay.}]
 
-Figure~\ref{fig:fmm} presents our estimates of \fmg\ from DLA surveys (blue).  These 
-are presented as error intervals that express the systematic uncertainties described 
+Figure~\ref{fig:fmm} presents our first estimates of \fmg\ from DLA surveys (blue).  
+These 
+are presented as error intervals that express the large systematic uncertainties described 
 above. They are compared with estimates of \fmg\ from the incidence of 
 spectroscopically-confirmed galaxies with $\delta \mrperp < 25$\,kpc and 
 $\delta v < 500 \, \mkms$ \citep[green; ][]{ventou+2017}. It is clear that our 
@@ -930,21 +936,29 @@ evolution with redshift.
 \label{sec:conclude}
 
 We have used the ALMA Band-7 receivers to image, at $\approx 2$~kpc resolution, the \cplus\ line 
-and FIR dust-continuum emission from an absorption-selected galaxy at $z = \zcube$. The \cplus\ 
-and dust emission arise from at least three distinct source components lying within $\approx 10$\,kpc 
-(projected), two of which (components A and B) have \lcplus/\ldust\ ratios consistent with values 
-in high-$z$ galaxies with moderate SFRs, while the third (component C), has an elevated \lcplus/\ldust\ 
-ratio. The images are consistent with a scenario in which components A and B are normal star-forming 
-galaxies separated by $\approx \rsep$\,kpc and undergoing a major merger, while component~C arises from 
-gas that has been stripped from one or both of the galaxies. The velocity spread of the \cplus\ emission 
+and FIR dust-continuum emission from an absorption-selected galaxy at $z = \zcube$. 
+The \cplus\ and dust emission arise from at least three distinct source components 
+lying within $\approx 10$\,kpc (projected), two of which (components A and B) have 
+\lcplus/\ldust\ ratios consistent with values
+in high-$z$ galaxies with moderate SFRs, while the third (component C), 
+has an elevated \lcplus/\ldust\ 
+ratio. The images are consistent with a scenario in which components A and B are 
+normal star-forming 
+galaxies separated by $\approx \rsep$\,kpc and undergoing a major merger, while 
+component~C arises from 
+gas that has been stripped from one or both of the galaxies. 
+The velocity spread of the \cplus\ emission 
 is in good agreement with the large velocity spread of the low-ionization metal absorption 
-lines, suggesting that the merger is likely to have caused the large \dvninety\ value of the DLA. This is 
-the first clear evidence that some of the large \dvninety\ values observed in DLAs arises from merging 
+lines, suggesting that the merger is likely to have caused the large \dvninety\ value of the DLA. 
+
+This is the first clear evidence that some of the large \dvninety\ values observed in DLAs arises from merging
 galaxies. We propose that major mergers at high redshifts can be identified in a luminosity-independent
 manner from the fraction of DLAs with large \dvninety\ values. We use the \dvninety\ distribution 
-of DLAs at $z > 3$ to estimate the fraction of major mergers amongst normal high-$z$ galaxies $\mfmg$,
-obtaining $\mfmg \approx 0.1$ at $z\approx 2.5$ and $z \approx 4$, consistent with independent estimates 
-from recent VLT/MUSE studies.
+of DLAs at $z > 3$ to roughly estimate the fraction of major mergers 
+amongst normal high-$z$ galaxies $\mfmg$, 
+obtaining $\mfmg \approx 0.1$ at $z\approx 2.5$ and $z \approx 4$, 
+consistent with independent estimates 
+from recent VLT/MUSE studies (albeit with large systematic uncertainty).
 
 
 \acknowledgments

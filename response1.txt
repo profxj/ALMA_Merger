@@ -4,24 +4,50 @@ The paper presents high spatial resolution ALMA observations of CII and dust con
 
 1. The novelty of the study comes from the selection technique. Absorption selection covers a different parameter space than previous studies of high redshift dusty star-forming galaxies biased to the brightest structures. While I think this is interesting and new enough to be published as a letter, the authors should consider to change the title to something more informative about what is new, since CII ALMA observations of major mergers at high-z are not new.
 
+>> The authors agree and have modified the title to be: 
+>> "ALMA C{\sc ii} 158$\mu$m Imaging of an HI-Selected Major Merger at $z \sim 4$"
+
 
 2. Section 2. In the beginning of the third paragraph the sentence "The initial data analysis, including data editing and gain and bandpass calibration" reads confusing and probably not very accurate. Do the authors mean that they use a different reduction pipeline afterward? By data editing do they mean flagging? I suppose that besides gain and bandpass calibration, the data reduction includes phase and flux calibration? The authors should consider to include a more detailed sentence on how the data reduction was carried out or just briefly mention that a regular CASA pipeline was used if that was the case.
 
-The initial analysis was carried out using the regular ALMA pipeline in CASA; the later analysis, for imaging and self-calibration, was carried out using individual CASA routines, i.e. not with a pipeline, and is hence described in more detail. Data editing and flagging are the same thing; the correct term is "data editing" as "flagging" actually means marking the data for the purpose of data editing. And "gain calibration" is the same as "phase and flux calibration"; one is calibrating the "complex antenna gains" in phase and flux calibration. To make things clearer, we have re-worded the sentence to
+>> The initial analysis was carried out using the regular ALMA pipeline in CASA; the later analysis, 
+>> for imaging and self-calibration, was carried out using individual CASA routines, i.e. not with a 
+>> pipeline, and is hence described in more detail. Data editing and flagging are the same thing; the 
+>> correct term is "data editing" as "flagging" actually means marking the data for the purpose of data 
+>> editing. And "gain calibration" is the same as "phase and flux calibration"; one is calibrating the 
+>> "complex antenna gains" in phase and flux calibration. To make things clearer, we have 
+>> re-worded the sentence to
 
-   The initial data analysis was carried out with the ALMA pipeline in the Common Astronomy Software Application ({\sc casa}) package; this included the removal of bad data (e.g. due to non-working antennas), and calibration of the flux density scale and the antenna-based complex gains and system bandpass.
+>>  The initial data analysis was carried out with the ALMA pipeline in the Common Astronomy 
+>>  Software Application ({\sc casa}) package; this included the removal of bad data (e.g. due to 
+>>  non-working antennas), and calibration of the flux density scale and the antenna-based 
+>>  complex gains and system bandpass.
 
 
 3. The authors apply a self-calibration procedure. However, this kind of technique requires a substantial signal to noise to provide accurate results. What was the signal-to-noise before self-calibration? The authors should mention it and justify the accuracy of the technique based on the signal-to-noise.
 
-We have added the following sentence to the text:
+>> We have added the following sentence to the text:
 
-   The peak signal-to-noise ratio on the image improved from $\approx 100$ before self-calibration to $\approx 330$ after self-calibration, and the image RMS noise improved by a factor of $\approx 1.7$, indicating a significant improvement due to the self-calibration process. 
+>> The peak signal-to-noise ratio on the image improved from $\approx 100$ before self-calibration 
+>> to $\approx 330$ after self-calibration, and the image RMS noise improved by a factor of 
+>> $\approx 1.7$, indicating a significant improvement due to the self-calibration process. 
 
 4. Figure 4. It needs to include an estimate of the uncertainty in the LCII/LIR ratio. Is the difference in the ratio for the different components significant considering the errors?
 
+>> The uncertainties are now included in Table 1.  They are somewhat difficult to illustrate
+>> in the figure but we have included approximate values in the figure caption.
+
 5. Table 1. The paper would benefit from including LCII/LIR with errors for each component in Table 1.
+
+>> This is an excellent suggestion and has been done.
 
 6. Section 3.1. In the beginning of the third paragraph it is mentioned that the LCII/LIR ratio is a factor of 2-3 higher in component C than in A or B. Does this refer to the maximum or the integrated flux over each component?
 
+>> This refers to the integrated value.  We have revised the text accordingly and have also edited 
+>>  the previous text to be "...approximately two times higher..."
+
 7. Section 3.3. The inference of the merger rate based on the distribution of DLAs velocity widths comes from rather arbitrary numbers, specially considering that the only example of such a merger is the source studied in this paper which turns out to be the most extreme outlier of the velocity width distribution. I am fine with leaving this section, but on the premise that the authors mention explicitly these issues in this section, in the summary and in the abstract.
+
+>> This is a fair assessment and a concern that the authors share.  
+>>  We have added tempering statements to Section 3.3, the summary, and the abstract with
+>>  language like:  "provide a rough estimate" and "albeit with large systematic uncertainty".
