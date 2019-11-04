@@ -1,0 +1,8 @@
+1.  Is there anything useful in the dust continuum other than independent SFR estimates?
+2.  Add more to Table 1
+3.  Units -- Jy / beam / km/s
+4.  References
+5.  Read merger literature
+6.  Observational details [Nissim + Marcel]
+7.  Include Decarli paper [X]
+8.  Convert L_IR into SFR 
