@@ -1,6 +1,6 @@
 Title:
 
-ALMA C{\sc ii} 158$\mu$m Imaging of an H{\textsc i}-Selected Major Merger at $z \sim 4$
+ALMA CII 158um Imaging of an HI-Selected Major Merger at z~4
 
 Authors:
 
