@@ -1,0 +1,32 @@
+Title:
+
+ALMA C{\sc ii} 158$\mu$m Imaging of an H{\textsc i}-Selected Major Merger at $z \sim 4$
+
+Authors:
+
+
+J. Xavier Prochaska (1,2), Marcel Neeleman (3), Nissim Kanekar (4), Marc Rafelski (5)
+((1) UC Santa Cruz, (2) Kavli/IPMU, (3) MPIA, (4) NCRA, (5) STScI)
+
+
+
+We present high spatial-resolution (~2kpc) Atacama Large Millimeter/submillimeter 
+Array (ALMA) observations of CII 158um and dust-continuum emission from a galaxy at z=3.7978
+selected by its strong HI absorption (a damped Lya absorber, DLA) against a background QSO. 
+Our ALMA images reveal a pair of star-forming galaxies separated by ~6kpc 
+(projected) undergoing a major merger. Between these galaxies is a third emission component 
+with highly elevated (2x)
+CII 158um emission relative to the dust continuum, which is likely to arise 
+from stripped gas associated with the merger. This merger of two otherwise-normal galaxies 
+is not accompanied by enhanced star-formation, contrary to mergers detected in most 
+luminosity-selected samples. The DLA associated with the merger exhibits extreme kinematics, 
+with a velocity width for the low-ionization metal lines of dv90~470 km/s, that 
+spans the velocity spread revealed in the CII 158um emission. We propose that DLAs with high 
+dv90 values are a signpost of major mergers in normal galaxies at high redshifts, and 
+use the distribution of the velocity widths of metal lines in high-z DLAs to provide
+a rough estimate the fraction of z>3 galaxies that are undergoing a major merger.
+
+
+7 color figures; 1 table.  Code related to the paper is found here:
+https://github.com/profxj/ALMA_Merger.  Data cubes are here:
+https://tinyurl.com/alma-j1201
